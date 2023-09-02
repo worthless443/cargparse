@@ -3,6 +3,7 @@ LIB=libvargs.a
 MAIN=main
 FLAGS=-I./ -O3  -ggdb
 SRC_DIR=examples
+CC=gcc
 
 all: $(OBJ) $(LIB) $(MAIN)
 $(OBJ): %.o : %.c

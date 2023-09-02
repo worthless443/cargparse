@@ -2,11 +2,7 @@
 #include "config.h"
 #include<stdio.h>
 #include<string.h>
-
-extern int PR_COMMAND,PR_ADD;
-extern int arr[15];
-extern int idx;
-extern int ops[15];
+#include<utils.h>
 
 
 int main(int argc, char **argv) {
